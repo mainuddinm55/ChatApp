@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "644455741018",
+    "firebase_url": "https://cirquechat.firebaseio.com",
+    "project_id": "cirquechat",
+    "storage_bucket": "cirquechat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644455741018:android:f93e7974d77f20b1",
+        "android_client_info": {
+          "package_name": "com.kcirqueapps.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644455741018-vstru1nm3nqsuq7p4ai6cgfvs2tao5i7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kcirqueapps.chatapp",
+            "certificate_hash": "403f4f11740d2b78d4789fdd0b7c8852a90489da"
+          }
+        },
+        {
+          "client_id": "644455741018-lse87fc8t4nmlecn4k2aafj8o6cvtefa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHCntb74YKlmuWe6-vqaL4jiwrK3xUpKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644455741018-lse87fc8t4nmlecn4k2aafj8o6cvtefa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

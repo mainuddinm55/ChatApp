@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/chat" />
+    <item
+        android:id="@+id/nav_friend"
+        android:icon="@drawable/ic_friends"
+        android:title="@string/friends" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_user"
+        android:title="@string/profile" />
+    <item
+        android:id="@+id/nav_near_by"
+        android:icon="@drawable/ic_near_me_black_24dp"
+        android:title="@string/near_by" />
+</menu>

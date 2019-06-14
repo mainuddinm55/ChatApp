@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="100dp"
+    android:layout_marginRight="100dp"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_view"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/send_msg"
+        android:src="@drawable/profile_user" />
+
+    <RelativeLayout
+        android:id="@+id/attachment_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/profile_image_view"
+        android:layout_toRightOf="@id/profile_image_view">
+
+        <ImageView
+            android:id="@+id/show_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:padding="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_user"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/download_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/file_name_text_view"
+            android:layout_toRightOf="@id/file_name_text_view"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_file_download_black_24dp" />
+
+        <TextView
+            android:id="@+id/file_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:text="@string/first_name" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/show_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/attachment_layout"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@id/profile_image_view"
+        android:layout_toRightOf="@id/profile_image_view"
+        android:background="@drawable/background_left"
+        android:padding="5dp"
+        tools:text="@string/send_msg" />
+
+
+    <TextView
+        android:id="@+id/msg_seen_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/show_message"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        tools:text="seen" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/nav_chat">
+
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.kcirqueapps.chatapp.fragment.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/nav_friend"
+        android:name="com.kcirqueapps.chatapp.fragment.FriendsFragment"
+        android:label="Friends"
+        tools:layout="@layout/fragment_friends" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.kcirqueapps.chatapp.fragment.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_near_by"
+        android:name="com.kcirqueapps.chatapp.fragment.NearByFragment"
+        android:label="fragment_near_by"
+        tools:layout="@layout/fragment_near_by" />
+</navigation>
